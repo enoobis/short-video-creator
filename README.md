@@ -21,8 +21,8 @@ All you have to do is fill in the columns
 | Delete All        | Deletes everything from folders                                                                              |
 
 
-|Save |   | Saves everything you have written in columns|
-|Upload | | Loads everything if you have saved everything you wrote in the columns|
+| Save   |    | Saves everything you have written in columns                                             |
+| Upload |    | Loads everything if you have saved everything you wrote in the columns |
 
 
 ![image](https://github.com/enoobis/short-video-creator/assets/62465404/2223e59a-27c4-4f5e-bfbb-ac32672a786a)
