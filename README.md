@@ -3,9 +3,10 @@
 This program creates short videos for YouTube , Instagram , Vk and so on
 All you have to do is fill in the columns
 
-!) column 1 should match the text you are writing in column 2
-
-!) 2 the column should be filled with text
+1. **Column 1**: Match the text you are writing in **Column 2**.
+2. **Column 2**: Fill this column with the desired text.
+3. **Save**: Save all the content written in the columns.
+4. **Upload**: Load the previously saved content from the columns.
 
 # Buttons 
 | Buttons           | Exp                                                                                                        |
@@ -19,13 +20,6 @@ All you have to do is fill in the columns
 | Combine Videos    | Combines all videos into one video and saves it to the `"video"` folder                                        |
 | Add Music to Video| Adds music from the `"music"` folder to videos from the `"video"` folder and saves them to the `"video-music"` folder |
 | Delete All        | Deletes everything from folders                                                                              |
-
-
-
-Save - Saves everything you have written in columns
-
-Upload - Loads everything if you have saved everything you wrote in the columns
-
 
 ![image](https://github.com/enoobis/short-video-creator/assets/62465404/2223e59a-27c4-4f5e-bfbb-ac32672a786a)
 
