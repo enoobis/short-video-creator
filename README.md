@@ -23,6 +23,7 @@ All you have to do is fill in the columns
 
 
 Save - Saves everything you have written in columns
+
 Upload - Loads everything if you have saved everything you wrote in the columns
 
 
