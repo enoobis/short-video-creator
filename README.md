@@ -1,6 +1,7 @@
 # short-video-creator
 
 This program creates short videos for YouTube , Instagram , Vk and so on
+
 All you have to do is fill in the columns
 
 1. **Column 1**: Match the text you are writing in **Column 2**.
