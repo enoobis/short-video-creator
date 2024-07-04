@@ -26,7 +26,7 @@ def save_all_images_and_mp3(image_entries, text_entries):
     for i in range(5):
         download_image(image_entries[i].get())
         save_as_mp3(text_entries[i].get("1.0", "end-1c"))
-        with open(os.path.join('C:\\Users\\enoobis\\Desktop\\video-project\\text', f'{i+1}.txt'), 'w') as f:
+        with open(os.path.join('text', f'{i+1}.txt'), 'w') as f:
             f.write(text_entries[i].get("1.0", "end-1c"))
             label.config(text="operation = successful")
 
@@ -52,7 +52,7 @@ image_entries = []
 text_entries = []
 
 # Define file path for storing data
-DATA_FILE = 'C:\\Users\\enoobis\\Desktop\\video-project\\data\\data.json'
+DATA_FILE = 'data\\data.json'
 
 def save_data():
     """Save user input data to a file"""
@@ -130,7 +130,7 @@ combsound_button = customtkinter.CTkButton(root, text='Combine Img&Sound', comma
 combsound_button.pack(pady=5,padx=10)
 
 # Button to Combine Videos
-combvideo_button = customtkinter.CTkButton(root, text='Combine Videos', command=lambda: combine_videos(r'C:\Users\enoobis\Desktop\video-project\pre-done'))
+combvideo_button = customtkinter.CTkButton(root, text='Combine Videos', command=lambda: combine_videos(r'pre-done'))
 combvideo_button.pack(pady=5,padx=10)
 
 # Button to Add Music to Video
