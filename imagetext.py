@@ -80,6 +80,3 @@ def add_text_to_images():
             
             # Save the output image with the text added
             img.save(output_path)
-
-# Execute the function to add text to images
-add_text_to_images()
