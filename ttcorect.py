@@ -3,7 +3,8 @@ from PIL import Image
 import os
 
 def add_borders():
-    folder_path = r'C:\Users\enoobis\Desktop\video-project\images'
+    # Get the folder path from the user
+    folder_path = os.path.join(os.getcwd(), 'images')
 
     # Loop through each file in the folder
     for filename in os.listdir(folder_path):
