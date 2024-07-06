@@ -3,7 +3,7 @@ from PIL import Image
 
 def resize_images():
     # Get the path to the folder containing the images
-    folder_path = 'C:/Users/enoobis/Desktop/video-project/images'
+    folder_path = os.path.join(os.getcwd(), "images")
 
     # Get a list of all the image filenames in the folder
     image_filenames = [f for f in os.listdir(folder_path) if f.endswith('.jpg')]

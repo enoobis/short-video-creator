@@ -4,9 +4,9 @@ import os
 # Define function to combine images and sound
 def combine_images_and_sound():
     # Paths to folders
-    image_folder = r'C:\Users\enoobis\Desktop\video-project\text-images'
-    audio_folder = r'C:\Users\enoobis\Desktop\video-project\voices'
-    output_folder = r'C:\Users\enoobis\Desktop\video-project\pre-done'
+    image_folder = os.path.join(os.getcwd(), "text-images")
+    audio_folder = os.path.join(os.getcwd(), "voices")
+    output_folder = os.path.join(os.getcwd(), "pre-done")
 
     # Get list of image and audio files
     image_files = [f for f in os.listdir(image_folder) if f.endswith('.jpg')]

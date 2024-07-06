@@ -2,7 +2,7 @@ import os
 from PIL import Image
 
 # set the path to your image folder
-path = r"C:\Users\enoobis\Desktop\video-project\images"
+path = os.path.join(os.getcwd(), "images")
 
 # define a function to process the images
 def process_images():

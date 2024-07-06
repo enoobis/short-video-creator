@@ -15,14 +15,14 @@ def save_as_mp3(text):
     engine.runAndWait()
 
     # Save the output as an MP3 file
-    directory = "C:/Users/enoobis/Desktop/video-project/voices"
-    counter = 1
-    while True:
-        filename = f"{counter}.mp3"
-        filepath = os.path.join(directory, filename)
-        if not os.path.exists(filepath):
+    directory = os.path.join(os.getcwd(), 'voices') # Output folder for the audio files
+    counter = 1 # Counter for naming the audio files
+    while True: # Loop until a unique filename is found
+        filename = f"{counter}.mp3" # Create audio file name
+        filepath = os.path.join(directory, filename) # Create audio file path
+        if not os.path.exists(filepath): # Check if the file already exists
             break
-        counter += 1
-    engine.save_to_file(text, filepath)
-    engine.runAndWait()
-    print(f'Audio Successfully saved as {filename}')
+        counter += 1 # Increment the counter if the file already exists
+    engine.save_to_file(text, filepath) # Save the audio to the file
+    engine.runAndWait() # Wait for the audio to be saved
+    print(f'Audio Successfully saved as {filename}') # Print success message

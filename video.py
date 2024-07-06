@@ -3,8 +3,8 @@ from moviepy.editor import VideoFileClip, concatenate_videoclips, CompositeVideo
 from moviepy.video.fx import all as afx
 
 # Set the paths
-output_folder = r'C:\Users\enoobis\Desktop\video-project\video'
-output_file = 'output.mp4'
+output_folder = os.path.join(os.getcwd(), 'video') # Output folder for the combined video
+output_file = 'output.mp4' # Output file name
 delay = 2.5  # in seconds
 transition_duration = 1.0  # in seconds
 
