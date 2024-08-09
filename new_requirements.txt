@@ -1,0 +1,3 @@
+customtkinter
+pyttsx3
+moviepy

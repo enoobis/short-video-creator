@@ -4,6 +4,8 @@ This program creates short videos for YouTube , Instagram , Vk and so on
 
 All you have to do is fill in the columns
 
+to run the program, install all the necessary libraries that can be found in new_requirements.txt .then try to run main.py if it gives u an error then download everything that python tells you when it gives an error. then login to `unsplash.com` goto `https://unsplash.com/oauth/applications` create new app then scroll down and copy `Access Key` then goto `images.py` file and paste it in `client_id` section. then run main.py file  
+
 1. **Column 1**: Match the text you are writing in **Column 2**.
 2. **Column 2**: Fill this column with the desired text.
 3. **Save**: Save all the content written in the columns.
